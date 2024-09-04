@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Roboto } from "next/font/google";
 
 import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
 
 import './main.css'
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({
+  weight: '400',
+  subsets: ["latin"],
+
+});
 
 export const metadata: Metadata = {
   title: "Stenoprint",
@@ -19,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={roboto.className}>
         <Header></Header>
         {children}
         <Footer></Footer>
