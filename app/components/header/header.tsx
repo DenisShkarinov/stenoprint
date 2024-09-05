@@ -1,8 +1,10 @@
 import Logo from "@/app/components/header/Logo";
 import Links from "@/app/components/footer/links";
 import './header.css'
+
 import Search from "@/app/components/header/search";
 import InfoComponent from "@/app/components/footer/infoComponent";
+
 export default function Header () {
    return (
       <header >
@@ -17,8 +19,6 @@ export default function Header () {
                   <Links></Links>
               </nav>
           </div>
-
-
       </header>
    )
 }
