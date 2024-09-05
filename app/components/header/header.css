@@ -4,6 +4,22 @@ header {
     align-items: center;
     padding: 20px 0;
 
+    .top-menu {
+        display: flex;
+        align-items: center;
+
+        form {
+            flex-grow: 2;
+            margin-right: 50px;
+
+            input {
+                max-width: 582px;
+                width: 100%;
+                padding: 15px 30px
+            }
+        }
+    }
+
     nav {
         display: flex;
         align-items: center;
