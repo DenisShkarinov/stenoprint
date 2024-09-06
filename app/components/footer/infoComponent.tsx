@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SocialLinks from "@/app/components/footer/socialLinks";
 
 export default function InfoComponent () {
     return (
@@ -11,6 +12,7 @@ export default function InfoComponent () {
                 <h4>Написать нам:</h4>
                 <Link href="mailto:info@stenoprint.ru">info@stenoprint.ru</Link>
             </div>
+            <SocialLinks></SocialLinks>
         </>
     )
 }

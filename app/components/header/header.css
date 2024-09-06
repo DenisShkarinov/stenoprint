@@ -16,11 +16,22 @@ header {
         form {
             flex-grow: 2;
             margin-right: 50px;
+            max-width: 582px;
+            width: 100%;
 
             input {
-                max-width: 582px;
                 width: 100%;
-                padding: 15px 30px
+                padding: 15px 30px;
+                border: 1px solid rgb(237, 237, 242);
+                border-radius: 50px;
+                color: rgb(130, 130, 153);
+
+                transition: .2s ease-in;
+                &:focus {
+                    border: 1px solid rgb(255, 46, 81);
+                    outline: none;
+                    transition: .2s ease-in;
+                }
             }
         }
     }
