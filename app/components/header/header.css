@@ -7,55 +7,70 @@ header {
     width: 100%;
     margin: 0 auto;
 
-    .top-menu {
-        display: flex;
-        align-items: center;
-        margin-bottom: 1em;
+    .menu {
+        flex-grow: 2;
 
+        .top-menu {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1em;
 
-        form {
-            flex-grow: 2;
-            margin-right: 50px;
-            max-width: 582px;
-            width: 100%;
-
-            input {
+            form {
+                flex-grow: 2;
+                margin-right: 50px;
+                max-width: 582px;
                 width: 100%;
-                padding: 15px 30px;
-                border: 1px solid rgb(237, 237, 242);
-                border-radius: 50px;
-                color: rgb(130, 130, 153);
 
-                transition: .2s ease-in;
-                &:focus {
-                    border: 1px solid rgb(255, 46, 81);
-                    outline: none;
+                input {
+                    width: 100%;
+                    padding: 15px 30px;
+                    border: 1px solid rgb(237, 237, 242);
+                    border-radius: 50px;
+                    color: rgb(130, 130, 153);
+
                     transition: .2s ease-in;
+                    &:focus {
+                        border: 1px solid rgb(255, 46, 81);
+                        outline: none;
+                        transition: .2s ease-in;
+                    }
                 }
             }
         }
+
+        nav {
+            display: flex;
+            align-items: center;
+            button {
+                margin-right: 50px;
+            }
+            ul {
+                display: flex;
+                li {
+                    padding-right: 50px;
+                }
+                li:last-child {
+                    padding-right: 0;
+                }
+            }
+        }
+
+        .info-block {
+            margin-right: 1em;
+
+            a {
+                font-size: 22px;
+            }
+        }
     }
 
-    nav {
-        display: flex;
-        align-items: center;
-        button {
-            margin-right: 50px;
-        }
-        ul {
-            display: flex;
-            li {
-                padding-right: 50px;
-            }
-            li:last-child {
-                padding-right: 0;
-            }
-        }
-    }
+
 
     .logo {
         width: 124px;
         height: 124px;
+        flex-grow: 1;
+
         a {
             font-size: 0;
         }
