@@ -4,6 +4,7 @@ import './header.css'
 
 import Search from "@/app/components/header/search";
 import InfoComponent from "@/app/components/footer/infoComponent";
+import MobileMenu from "@/app/components/header/MobileMenu";
 
 export default function Header () {
    return (
@@ -19,6 +20,8 @@ export default function Header () {
                   <Links></Links>
               </nav>
           </div>
+
+          <MobileMenu></MobileMenu>
 
       </header>
    )
