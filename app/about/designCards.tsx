@@ -10,7 +10,9 @@ export default function DesignCards () {
                 <h3>{card.title}</h3>
             </div>
             <div className="card-message">
-                {card.desc}
+                <p>
+                    {card.desc}
+                </p>
             </div>
         </div>
     ))

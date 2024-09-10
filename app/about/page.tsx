@@ -1,6 +1,6 @@
 import Image from "next/image";
 import DesignCards from "@/app/about/designCards";
-
+import './about.css'
 
 export default function About () {
    return (
