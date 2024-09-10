@@ -91,5 +91,12 @@ header {
     }
     .mobile-menu {
         display: block;
+
+        span {
+            width: 20px;
+            height: 2px;
+            background-color: #000;
+
+        }
     }
 }
