@@ -59,9 +59,10 @@ a:hover {
 
     section {
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: row;
         justify-content: space-between;
         padding: 60px 0;
+        gap: 1em;
 
         .img-block {
             flex-grow: 1;
@@ -70,7 +71,6 @@ a:hover {
         .text-description {
             max-width: 590px;
             flex-grow: 1;
-            padding-left: 1.5em;
 
             .text-description__title {
                 padding-bottom: 20px;

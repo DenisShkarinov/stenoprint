@@ -28,18 +28,27 @@ export default function About () {
           <section id="description-cards">
               <DesignCards></DesignCards>
           </section>
-                <div className="text-description">
-                    <h2 className="text-description__title">Мы используем разные техники оформления</h2>
-                    <p className="text-description__message">
-                        Разнообразный и богатый опыт говорит нам, что внедрение современных методик представляет собой интересный эксперимент проверки кластеризации усилий. Предварительные выводы неутешительны: базовый вектор развития создаёт предпосылки для дальнейших направлений развития. Не следует, однако, забывать, что граница обучения кадров прекрасно подходит для реализации своевременного выполнения сверхзадачи. Разнообразный и богатый опыт говорит нам, что высокое качество позиционных исследований, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для позиций, занимаемых участниками в отношении поставленных задач.
-                    </p>
-                </div>
-          <div className="video-block">
-              <iframe width="930" height="523" src="https://www.youtube.com/embed/FQnDQbG24SU"
-                      title="Задача от подписчика" frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-          </div>
+          <section>
+              <div className="text-description">
+                  <h2 className="text-description__title">Мы используем разные техники оформления</h2>
+                  <p className="text-description__message">
+                      Разнообразный и богатый опыт говорит нам, что внедрение современных методик представляет собой
+                      интересный эксперимент проверки кластеризации усилий. Предварительные выводы неутешительны:
+                      базовый вектор развития создаёт предпосылки для дальнейших направлений развития. Не следует,
+                      однако, забывать, что граница обучения кадров прекрасно подходит для реализации своевременного
+                      выполнения сверхзадачи. Разнообразный и богатый опыт говорит нам, что высокое качество позиционных
+                      исследований, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для
+                      позиций, занимаемых участниками в отношении поставленных задач.
+                  </p>
+              </div>
+              <div className="video-block">
+                  <iframe width="930" height="523" src="https://www.youtube.com/embed/FQnDQbG24SU"
+                          title="Задача от подписчика" frameBorder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+              </div>
+          </section>
+
           <section>
               <div className="image-block">
 
